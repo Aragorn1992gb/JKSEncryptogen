@@ -38,7 +38,7 @@ An configuring XML file need to be made in order to define the keystore characte
 </class> 
 ```
 
-   the XML file (that is a .txt but in XML format) can contain the description of one or more jks to manage. It is important to define its name withour extension (keystore name), the alias, the extension and filePName. filePName is not mandatory, it indicates the name (including exstension) of the file that contains password to open the keystore, it can be null if you want to insert it directly on the code. Be careful! If you utilize it, the password must be crypted with another algorithm knew by the source code, maybe in Aes, in order to be decrited againwhen it is taken. Instead, it can be set "by hand" inside the code himself.
+        the XML file (that is a .txt but in XML format) can contain the description of one or more jks to manage. It is important to define its name withour extension (keystore      name), the alias, the extension and filePName. filePName is not mandatory, it indicates the name (including exstension) of the file that contains password to open the      keystore, it can be null if you want to insert it directly on the code. Be careful! If you utilize it, the password must be crypted with another algorithm knew by the source      code, maybe in Aes, in order to be decrited againwhen it is taken. Instead, it can be set "by hand" inside the code himself.
 
 3) Ciphier text generation
 To generate ciphier text, you can run MainWindow.java:
